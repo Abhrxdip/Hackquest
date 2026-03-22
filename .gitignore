@@ -1,0 +1,47 @@
+# ------------------------------
+# Global gitignore for Hackquest
+# ------------------------------
+
+# Dependencies
+**/node_modules/
+
+# Environment files
+**/.env
+**/.env.*
+!**/.env.example
+
+# Logs
+**/npm-debug.log*
+**/yarn-debug.log*
+**/yarn-error.log*
+**/pnpm-debug.log*
+**/*.log
+
+# Build and cache output
+**/dist/
+**/build/
+**/coverage/
+**/.next/
+**/.nuxt/
+**/.cache/
+
+# Runtime artifacts
+**/*.pid
+**/*.seed
+**/*.pid.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / editor
+.vscode/
+.idea/
+**/*.swp
+**/*.swo
+
+# Keep important package files tracked
+!**/package.json
+!**/package-lock.json
+!**/yarn.lock
+!**/pnpm-lock.yaml
